@@ -1,5 +1,5 @@
 {% set name = "jaxns" %}
-{% set version = "2.6.9" %}
+{% set version = "3.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jaxns-{{ version }}.tar.gz
-  sha256: 3b72e9dd27c6fdefdc86247b8d3a5cbd20d86cef69d5ac46e2528b78a44fdc11
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/jaxns-{{ version }}.tar.gz
+  sha256: aeed4432fa2337a4a84530a806eddedd86e6fd0a7491a23073ac2d5228efc74c
 
 build:
   noarch: python
